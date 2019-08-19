@@ -1,0 +1,30 @@
+{
+  "name": "eslint-tagged-literal-indent-bug",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "eslint test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msvab/eslint-tagged-literal-indent-bug.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/msvab/eslint-tagged-literal-indent-bug/issues"
+  },
+  "homepage": "https://github.com/msvab/eslint-tagged-literal-indent-bug#readme",
+  "dependencies": {
+    "jest": "24.9.0"
+  },
+  "devDependencies": {
+    "eslint": "6.2.0",
+    "eslint-plugin-jest": "22.15.1"
+  },
+  "jest": {
+    "roots": [
+      "./test"
+    ],
+    "testEnvironment": "node"
+  }
+}
